@@ -23,4 +23,7 @@ search_box.send_keys('Selenium (software)' + Keys.RETURN)
 
 time.sleep(5)
 
+logo=driver.find_element(*WikipediaArticle.Logo)
+logo.click();
+
 driver.quit()
